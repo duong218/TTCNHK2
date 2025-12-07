@@ -259,7 +259,7 @@ export const optimizeRoomBooking = async (req, res) => {
         solutions,
         totalGuests,
         nights,
-        message: `Found ${solutions.length} optimal room combination(s) for ${totalGuests} guests`
+        message: `Đã tìm thấy ${solutions.length} tổ hợp phòng tối ưu cho ${totalGuests} khách`
       });
     }
 

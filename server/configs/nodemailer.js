@@ -18,7 +18,7 @@ export default transporter;
 // Fake transporter để bỏ qua việc gửi email
 const transporter = {
     sendMail: async (options) => {
-        console.log("📨 Email sending skipped (DISABLED MODE)");
+        console.log(" Email sending skipped (DISABLED MODE)");
         console.log("Mail options:", options);
         return {
             accepted: [options?.to || "example@example.com"],

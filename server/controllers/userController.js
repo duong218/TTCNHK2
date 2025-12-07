@@ -25,7 +25,7 @@ export const storeRecentSearchedCities = async (req, res) => {
       user.recentSearchedCities.push(recentSearchedCity);
     }
     await user.save();
-    res.json({ success: true, message: "City added" });
+    res.json({ success: true, message: "Thành phố đã được thêm vào" });
   } catch (error) {
     res.json({ success: false, message: error.message });
   }
