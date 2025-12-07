@@ -25,7 +25,7 @@ const RoomDetails = () => {
 
             //  Check is Check-In Date is greater than Check-Out Date
             if (checkInDate >= checkOutDate) {
-                toast.error('Check-In Date should be less than Check-Out Date')
+                toast.error('Ngày nhận phòng phải trước ngày trả phòng')
                 return;
             }
 
@@ -153,7 +153,7 @@ const RoomDetails = () => {
                         return (
                             <div className='mt-2'>
                                 <p className='text-sm text-gray-500'>{adults} adult(s), {children} child(ren)</p>
-                                <p className='text-lg text-primary font-semibold'>Total: ${totalPrice.toFixed(2)} ({nights} night{nights > 1 ? 's' : ''})</p>
+                                <p className='text-lg text-primary font-semibold'>Tổng cộng: ${totalPrice.toFixed(2)} ({nights} đêm {nights > 1 ? 's' : ''})</p>
                             </div>
                         );
                     })()}

@@ -75,11 +75,8 @@ export const assets = {
 }
 
 export const cities = [
-    "Dubai",
-    "Singapore",
-    "New York",
-    "London",
-    "Việt Nam"
+    "TP. Hồ Chí Minh",
+    "TP. Hà Nội"
 ];
 
 // Exclusive Offers Dummy Data
@@ -91,9 +88,9 @@ export const exclusiveOffers = [
 
 // Testimonials Dummy Data
 export const testimonials = [
-    { id: 1, name: "Phạm Văn Toàn", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "Tôi đã sử dụng nhiều nền tảng đặt phòng trước đây, nhưng không có nền tảng nào sánh được với trải nghiệm cá nhân hóa và sự tỉ mỉ đến từng chi tiết mà QuickStay mang lại. Danh sách khách sạn được tuyển chọn kỹ lưỡng của họ quả là vô song." },
-    { id: 2, name: "Bùi Công Thành", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay vượt quá mong đợi của tôi. Quá trình đặt phòng diễn ra suôn sẻ, và khách sạn thì tuyệt vời. Rất đáng để trải nghiệm!" },
-    { id: 3, name: "Phùng Đình Tuấn", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Dịch vụ tuyệt vời! Tôi luôn tìm được chỗ nghỉ sang trọng nhất thông qua QuickStay. Những gợi ý của họ chưa bao giờ làm tôi thất vọng!" },
+    { id: 1, name: "Phạm Văn Toàn", address: "Việt Nam, Hà Nội", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "Tôi đã sử dụng nhiều nền tảng đặt phòng trước đây, nhưng không có nền tảng nào sánh được với trải nghiệm cá nhân hóa và sự tỉ mỉ đến từng chi tiết mà QuickStay mang lại. Danh sách khách sạn được tuyển chọn kỹ lưỡng của họ quả là vô song." },
+    { id: 2, name: "Bùi Công Thành", address: "Việt Nam, Hà Nội", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay vượt quá mong đợi của tôi. Quá trình đặt phòng diễn ra suôn sẻ, và khách sạn thì tuyệt vời. Rất đáng để trải nghiệm!" },
+    { id: 3, name: "Phùng Đình Tuấn", address: "Việt Nam, Hà Nội", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Dịch vụ tuyệt vời! Tôi luôn tìm được chỗ nghỉ sang trọng nhất thông qua QuickStay. Những gợi ý của họ chưa bao giờ làm tôi thất vọng!" },
     { id: 4, name: "Phạm Ngọc Dương", address: "Việt Nam, Hà Nội", image: "https://69339ae1d92173330f911da8.imgix.net/91b1aef4-e706-4ffd-b295-8db94020ba5f.jpg", rating: 1, review: "Tôi thấy khách sạn còn khá nhiều chi tiết chưa hợp lý"}
 ];
 

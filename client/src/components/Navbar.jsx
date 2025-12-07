@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Trang chủ', path: '/' },
-        { name: 'Khách sạn', path: '/rooms' },
+        { name: 'Danh sách phòng', path: '/rooms' },
         { name: 'Tư vấn đặt chỗ', path: '/optimize-booking' },
         { name: 'Ưu đãi', path: '/' },
         { name: 'Về', path: '/' },
